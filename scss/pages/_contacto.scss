@@ -1,9 +1,7 @@
+@import '../base/extends';
+
 .main-contacto{
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    @extend %flex;
    
     .subtitulo-contacto{
         font-weight: bold;

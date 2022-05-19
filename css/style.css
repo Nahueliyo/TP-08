@@ -195,13 +195,32 @@ header .zona-navegable .seccion-mobile h1 {
 
 /*Boton*/
 /* key - value (valor) */
-.main-contacto {
+/*Animate.css*/
+.animate__fadeInDown {
+  --animate-duration: 3s;
+}
+
+.animate__fadeInUp {
+  --animate-duration: 3s;
+}
+
+.animate__zoomIn {
+  --animate-duration: 5s;
+}
+
+.animate__lightSpeedInRight {
+  --animate-duration: 2s;
+}
+
+/*Fin de animate.css*/
+.main, .main-nosotros, .main-contacto {
   display: flex;
   align-content: center;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
 }
+
 .main-contacto .subtitulo-contacto {
   font-weight: bold;
 }
@@ -237,9 +256,59 @@ header .zona-navegable .seccion-mobile h1 {
   font-size: 2vh;
 }
 
-.sugerencia-pregunta {
+.container .sugerencia-pregunta {
   font-size: 3vh;
   font-weight: bold;
+}
+.container .boton-sugerencia {
+  background-color: #5cb85c;
+  border-radius: 3px;
+  padding: 5px;
+  border-color: #4cae4c;
+}
+
+.main, .main-nosotros, .main-contacto {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-nosotros {
+  width: 60%;
+  background-color: blanchedalmond;
+  border-radius: 5%;
+}
+.main-nosotros .bienvenida-titulo {
+  font-size: 5vh;
+  margin-right: 4vh;
+  color: crimson;
+  font-family: "Lobster", cursive;
+}
+.main-nosotros .parrafo-bienvenida {
+  font-family: Sans;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main, .main-contacto, .main-nosotros {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  width: 75%;
+}
+.main .amigos {
+  background-color: blanchedalmond;
+}
+.main .amigos .titulo-amigos {
+  color: crimson;
+  font-family: "Lobster", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */

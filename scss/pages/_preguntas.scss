@@ -14,7 +14,16 @@
     font-size: 2vh;
 }
 
-.sugerencia-pregunta{
-    font-size: 3vh;
-    font-weight: bold;
+
+.container{
+    .sugerencia-pregunta{
+        font-size: 3vh;
+        font-weight: bold;
+    }
+    .boton-sugerencia{
+        background-color: map-get($boton, bg-boton);
+        border-radius: map-get($boton, radio-borde);
+        padding: map-get($boton, padding);
+        border-color: #4cae4c;;
+    }
 }
