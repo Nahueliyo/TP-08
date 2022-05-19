@@ -10,6 +10,8 @@ body footer {
   margin-top: auto;
 }
 
+/*Boton*/
+/* key - value (valor) */
 header {
   font-size: 20px;
   background-color: blanchedalmond;
@@ -32,16 +34,14 @@ header .zona-navegable .lista-navegable {
 }
 header .zona-navegable .lista-navegable .item-lista-nav {
   background-color: #5cb85c;
-  padding: 5px;
   border-radius: 3px;
+  padding: 5px;
 }
 header .zona-navegable .lista-navegable .item-lista-nav .boton {
   text-decoration: none;
   color: white;
   font-weight: bold;
   font-family: sans-serif;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
 }
 header .zona-navegable .lista-navegable .item-lista-nav:hover {
   transform: scale(1.5);
@@ -60,6 +60,8 @@ header .zona-navegable .seccion-mobile {
 header .zona-navegable .seccion-mobile .menu-desplegable {
   background-color: #5cb85c;
   border-color: #4cae4c;
+  border-radius: 3px;
+  margin-left: 3px;
 }
 header .zona-navegable .seccion-mobile .menu-desplegable .dropdown-item:hover {
   background-color: #49fa49;
@@ -76,6 +78,8 @@ header .zona-navegable .seccion-mobile h1 {
   }
 }
 
+/*Boton*/
+/* key - value (valor) */
 .carrusel-foto {
   height: 60vh;
   width: 100vh;
@@ -189,6 +193,8 @@ header .zona-navegable .seccion-mobile h1 {
   padding: 0;
 }
 
+/*Boton*/
+/* key - value (valor) */
 .main-contacto {
   display: flex;
   align-content: center;

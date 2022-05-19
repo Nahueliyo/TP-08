@@ -24,17 +24,15 @@ header{
             align-items: flex-end;
 
             .item-lista-nav{
-                background-color: #5cb85c;
-                padding: 5px;
-                border-radius: 3px;
-
+                background-color: map-get($boton, bg-boton);
+                border-radius: map-get($boton, radio-borde);
+                padding: map-get($boton, padding);
+            
                 .boton{
                     text-decoration: none;
                     color: white;
                     font-weight: bold;
                     font-family: sans-serif;
-                    background-color:#5cb85c;
-                    border-color:#4cae4c;
                 }                
             }
             .item-lista-nav:hover{
@@ -52,6 +50,8 @@ header{
             .menu-desplegable{
                 background-color:#5cb85c;
                 border-color:#4cae4c;
+                border-radius: map-get($boton, radio-borde);
+                margin-left: 3px;
                 
                 .dropdown-item:hover{
                     background-color: #49fa49;
